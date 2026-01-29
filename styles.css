@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  gap: 20px;
+}
+.carousel {
+  width: 1024px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.carousel-images {
+  height: 400px;
+  border: 2px solid #ccc;
+  overflow: hidden;
+}
+.carousel-images {
+  width: 100%;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.slide.active {
+  display: block;
+}
+.arrow-left,
+.arrow-right {
+  width: 30px;
+  height: 30px;
+}
+.button-prev,
+.button-next {
+  width: 50px;
+  height: 100px;
+  background-color: #00000080;
+  cursor: pointer;
+}
+.button-prev {
+  position: absolute;
+  left: 20px;
+  top: 150px;
+}
+.button-next {
+  position: absolute;
+  right: 20px;
+  top: 150px;
+}
+.dot {
+  width: 15px;
+  height: 15px;
+  background-color: #888;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+.dot.active {
+  background-color: #000;
+}
