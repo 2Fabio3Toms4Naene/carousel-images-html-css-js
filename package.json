@@ -1,0 +1,32 @@
+{
+  "name": "template-eclint-prettier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2Fabio3Toms4Naene/template-eclint-prettier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/2Fabio3Toms4Naene/template-eclint-prettier/issues"
+  },
+  "homepage": "https://github.com/2Fabio3Toms4Naene/template-eclint-prettier#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^17.2.0",
+    "prettier": "^3.8.1"
+  }
+}
